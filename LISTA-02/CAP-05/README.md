@@ -1,5 +1,5 @@
 
-# **📚 Repositório de Exercícios - Capítulo 04: Estrutura Condicional**
+# **Capítulo 04: Estrutura Condicional**
 
 Bem-vindo ao repositório de exercícios do **Capítulo 04** de **Programação Orientada a Objetos (POO)**, que aborda o conceito de **Estrutura Condicional**. Este repositório foi criado como parte da disciplina de **POO** no **IFCE Campus Maranguape**, ministrada pelo professor **Roger Moura Sarmento**.
 
