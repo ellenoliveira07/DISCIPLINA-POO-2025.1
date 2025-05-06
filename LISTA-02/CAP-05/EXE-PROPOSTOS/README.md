@@ -11,10 +11,7 @@
   - Calcular o salário final após os aumentos.
 
 ### **2. Cálculo de E**
-- **Descrição**: O programa deve ler um valor N inteiro e positivo e calcular o valor de E utilizando a fórmula dada:
-  \[
-  E = 1 + \frac{1}{1!} + \frac{1}{2!} + \frac{1}{3!} + ... + \frac{1}{N!}
-  \]
+- **Descrição**: O programa deve ler um valor N inteiro e positivo e calcular o valor de E utilizando a fórmula dada.
 - **Ordens usadas**:
   - Ler o valor de N.
   - Utilizar um loop para calcular e somar os termos da fórmula de E.
