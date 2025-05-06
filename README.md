@@ -68,7 +68,4 @@ Os exercícios neste repositório foram extraídos da apostila:
 
 Contribuições são mais que bem-vindas! Caso queira adicionar novos exercícios, sugerir melhorias ou corrigir algum erro, sinta-se à vontade para abrir uma **issue** ou enviar um **pull request**.
 
----
-
-Este repositório é uma excelente oportunidade para estudantes e profissionais que desejam melhorar sua compreensão sobre **Programação Orientada a Objetos** em **Java**. Aproveite os exercícios para praticar e dominar os conceitos de **POO** de forma eficaz. 🌟
 
