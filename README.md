@@ -14,7 +14,8 @@ A estrutura do repositório segue a organização de pastas que facilita o acess
 📂 Questão
 ┣ 📂 src
 ┃ ┣ 📂 br.edu.principal
-┃ ┃ ┣ 📜 Principal.java (Código da solução para cada exercício)```
+┃ ┃ ┣ 📜 Principal.java (Código da solução para cada exercício)
+```
 
 
 Cada diretório de exercício contém um **código pronto** para ser executado no **Eclipse IDE**. O código está estruturado em **pacotes** e **classes** específicas, proporcionando uma organização clara e objetiva para cada exercício.
