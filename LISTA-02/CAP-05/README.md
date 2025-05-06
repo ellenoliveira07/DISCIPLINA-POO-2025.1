@@ -1,107 +1,87 @@
 
-# **Capítulo 04: Estrutura Condicional**
+# **Capítulo 05: Estrutura de Repetição**
 
-Bem-vindo ao repositório de exercícios do **Capítulo 04** de **Programação Orientada a Objetos (POO)**, que aborda o conceito de **Estrutura Condicional**. Este repositório foi criado como parte da disciplina de **POO** no **IFCE Campus Maranguape**, ministrada pelo professor **Roger Moura Sarmento**.
+Bem-vindo ao repositório de exercícios do **Capítulo 05** de **Programação Orientada a Objetos (POO)**, que aborda o conceito de **Estrutura de Repetição**. Este repositório foi criado como parte da disciplina de **POO** no **IFCE Campus Maranguape**, ministrada pelo professor **Roger Moura Sarmento**.
 
 ## **🎯 Objetivo**
 
-O objetivo deste capítulo é proporcionar aos alunos o entendimento e a aplicação das **estruturas condicionais** em **Java**, que são essenciais para controlar o fluxo de execução do programa com base em **condições específicas**.
+O objetivo deste capítulo é proporcionar aos alunos o entendimento e a aplicação das **estruturas de repetição** em **Java**, que são essenciais para executar blocos de código de forma repetitiva, até que uma determinada condição seja satisfeita.
 
-Ao trabalhar com **estruturas condicionais**, você será capaz de tomar decisões durante a execução do código, alterando seu comportamento dependendo do resultado de uma comparação. Com isso, o programa pode se comportar de maneira diferente, dependendo das entradas ou das condições que ele encontra durante a execução.
+As estruturas de repetição são fundamentais em programação, pois permitem que você execute uma mesma tarefa várias vezes, sem ter que escrever o mesmo código repetidamente. Com isso, você consegue otimizar o código e trabalhar de forma mais eficiente.
 
-## **🧩 Conceito de Estrutura Condicional**
+## **🧩 Conceito de Estrutura de Repetição**
 
-Em programação, **estruturas condicionais** permitem que o código tome decisões com base em **condições** (expressões booleanas) que podem ser verdadeiras ou falsas. Com isso, diferentes caminhos podem ser seguidos, dependendo do valor dessas condições.
+Em programação, as **estruturas de repetição** (ou **laços de repetição**) permitem que um bloco de código seja repetido várias vezes até que uma condição de término seja atingida. Isso é útil quando se deseja executar um conjunto de instruções diversas vezes, com base em uma condição de controle.
 
-Em **Java**, as estruturas condicionais mais comuns são:
+Em **Java**, as estruturas de repetição mais comuns são:
 
-- **`if`**: Executa um bloco de código se a condição for verdadeira.
-- **`else`**: Executa um bloco de código alternativo caso a condição do `if` seja falsa.
-- **`else if`**: Permite verificar múltiplas condições de forma sequencial.
-- **`switch`**: Permite comparar uma variável contra vários valores possíveis e executar um bloco de código correspondente.
+- **`for`**: Utilizado quando o número de repetições é conhecido antecipadamente.
+- **`while`**: Utilizado quando não se sabe o número exato de repetições, mas sabe-se a condição de parada.
+- **`do while`**: Semelhante ao `while`, mas a condição é verificada após a execução do bloco de código, garantindo que o código seja executado pelo menos uma vez.
 
 ### **🔧 Sintaxe Básica:**
 
-#### `if` e `else`
+#### `for`
 
 ```java
-if (condição) {
-    // Código a ser executado se a condição for verdadeira
-} else {
-    // Código a ser executado se a condição for falsa
+for (inicialização; condição; incremento) {
+    // Código a ser executado enquanto a condição for verdadeira
 }
 ````
 
-#### `else if`
+#### `while`
 
 ```java
-if (condição1) {
-    // Código se a condição1 for verdadeira
-} else if (condição2) {
-    // Código se a condição2 for verdadeira
-} else {
-    // Código se nenhuma das condições anteriores for verdadeira
+while (condição) {
+    // Código a ser executado enquanto a condição for verdadeira
 }
 ```
 
-#### `switch`
+#### `do while`
 
 ```java
-switch (variável) {
-    case valor1:
-        // Código a ser executado se a variável for igual a valor1
-        break;
-    case valor2:
-        // Código a ser executado se a variável for igual a valor2
-        break;
-    default:
-        // Código a ser executado se a variável não for igual a nenhum dos valores
-}
+do {
+    // Código a ser executado pelo menos uma vez
+} while (condição);
 ```
 
-## **🔍 Aplicações da Estrutura Condicional em POO**
+## **🔍 Aplicações da Estrutura de Repetição em POO**
 
-Em **Programação Orientada a Objetos (POO)**, as **estruturas condicionais** são essenciais para controlar o comportamento de objetos e suas interações. Elas são comumente usadas em:
+As **estruturas de repetição** são amplamente usadas em **Programação Orientada a Objetos (POO)**, principalmente para percorrer coleções de objetos, processar listas, ou quando se deseja realizar uma ação repetidamente até que uma condição seja atingida.
 
-1. **Validação de dados**: Antes de modificar o estado de um objeto, é comum validar entradas para garantir que elas atendem a certos critérios.
-
-   Exemplo:
-
-   ```java
-   if (idade >= 18) {
-       // Permite o cadastro de um usuário maior de idade
-   } else {
-       // Exibe uma mensagem de erro
-   }
-   ```
-
-2. **Alteração de estado de objetos**: Condições podem ser usadas para determinar qual ação um objeto deve realizar em diferentes situações.
+1. **Percorrer Arrays e Listas**: Muitas vezes, em POO, você precisa percorrer um conjunto de objetos armazenados em um **vetor** ou **lista** para realizar operações em cada um deles.
 
    Exemplo:
 
    ```java
-   if (saldo >= valor) {
-       conta.sacar(valor);
-   } else {
-       System.out.println("Saldo insuficiente.");
+   for (int i = 0; i < lista.size(); i++) {
+       System.out.println(lista.get(i));
    }
    ```
 
-3. **Decisão entre diferentes tipos de objetos**: Muitas vezes, é necessário tomar decisões com base nas características ou tipos de objetos, como classes, atributos ou estados.
+2. **Execução de Ações em Objetos**: Você pode precisar executar um método várias vezes em diferentes objetos, ou repetir um processo dentro de um objeto até que um critério seja alcançado.
 
    Exemplo:
 
    ```java
-   if (animal instanceof Cachorro) {
-       ((Cachorro) animal).latir();
-   } else {
-       System.out.println("Não é um cachorro.");
+   while (estoque > 0) {
+       venda.realizarVenda();
+       estoque--;
    }
    ```
 
+3. **Simulações e Processos Iterativos**: A estrutura de repetição também é essencial para simulações, como um processo que deve ser repetido até um determinado número de ciclos ser completado.
+
+   Exemplo:
+
+   ```java
+   for (int i = 1; i <= 10; i++) {
+       // Simulação de uma ação repetitiva
+   }
+   ```
 ---
 
-Este repositório oferece uma excelente oportunidade para você praticar **estruturas condicionais** em **POO** com **Java**, permitindo que você refine suas habilidades e aprenda a aplicar as decisões lógicas em programação de forma eficaz.
+Este repositório oferece uma excelente oportunidade para você praticar **estruturas de repetição** em **POO** com **Java**, permitindo que você refine suas habilidades e aprenda a aplicar loops de forma eficaz.
 
 🌟 **Aproveite os exercícios e divirta-se aprendendo!**
 
