@@ -32,10 +32,7 @@
   - Calcular as estatísticas solicitadas utilizando loops e condicionais.
 
 ### **5. Série Matemática**
-- **Descrição**: O programa deve calcular o valor da série dada com N termos e um valor positivo de X:
-  \[
-  S = \frac{-X^2}{1!} + \frac{X^3}{2!} - \frac{X^4}{3!} + \frac{X^5}{4!} - \dots
-  \]
+- **Descrição**: O programa deve calcular o valor da série dada com N termos e um valor positivo de X.
 - **Ordens usadas**:
   - Ler N e X.
   - Usar um loop para calcular e somar os termos da série.
@@ -53,10 +50,7 @@
   - Utilizar um loop para gerar e exibir os primeiros 8 termos da sequência Fibonacci.
 
 ### **8. Série com Padrão Específico**
-- **Descrição**: O programa deve gerar e mostrar os valores de uma série específica com um padrão dado:
-  \[
-  \text{Série} = 2, 7, 3, 4, 21, 12, 8, 63, 48, 16, 189, 192, 32, 567, 768...
-  \]
+- **Descrição**: O programa deve gerar e mostrar os valores de uma série específica com um padrão dado.
 - **Ordens usadas**:
   - Utilizar um loop para gerar os valores dessa série conforme o padrão.
 
