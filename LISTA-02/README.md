@@ -12,15 +12,6 @@ Esta lista de atividades foi projetada para aprofundar o entendimento dos alunos
 
 ---
 
-## 📚 **Detalhes do Curso**
-
-| **📘 Curso**              | Programação Orientada a Objetos               |
-|--------------------------|-----------------------------------------------|
-| **👨‍🏫 Instrutor**         | Roger Moura Sarmento                         |
-| **🏫 Instituição**         | IFCE, Campus Maranguape                      |
-
----
-
 ## 🎯 **Objetivo**
 
 As atividades dessa lista têm como objetivo:
