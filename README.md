@@ -12,12 +12,10 @@ Este repositório tem como objetivo proporcionar um ambiente organizado e eficie
 A estrutura do repositório segue a organização de pastas que facilita o acesso e a execução dos exercícios. Veja como está estruturado:
 
 ```
-
 📂 Questão
 ┣ 📂 src
 ┃ ┣ 📂 br.edu.principal
 ┃ ┃ ┣ 📜 Principal.java (Código da solução para cada exercício)
-
 ```
 
 
