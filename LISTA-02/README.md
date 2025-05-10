@@ -32,7 +32,7 @@ Siga os passos simples abaixo para começar:
 Primeiro, instale o **Git** a partir de [aqui](https://git-scm.com/). Depois, abra o terminal e execute:
 
 ```bash
-git clone https://github.com/MaxwellMaciel/CTI-P4-POO-20242-LISTA02.git
+git clone https:https://github.com/ellenoliveira07/DISCIPLINA-POO-2025.1.git
 ````
 
 ### 2. **Acesse a Pasta do Repositório**
@@ -40,7 +40,7 @@ git clone https://github.com/MaxwellMaciel/CTI-P4-POO-20242-LISTA02.git
 Entre na pasta do projeto com:
 
 ```bash
-cd CTI-P4-POO-20242-LISTA02
+cd DISCIPLINA-POO-2025.1
 ```
 
 ### 3. **Faça Alterações e Commit**
